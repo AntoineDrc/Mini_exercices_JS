@@ -4,6 +4,7 @@ main {
     gap: 4rem;
     justify-content: center;
     align-items: center;
+    transition: 0.7s ease ;
 }
 
 .box {
@@ -16,4 +17,5 @@ main {
     background-color: #b4b4b4;
     box-shadow: 0 0 10px black;
     border-radius: 10px;
+    transition: 0.7s ease;
 }

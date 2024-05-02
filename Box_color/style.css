@@ -1,0 +1,19 @@
+main {
+    height: 100vh;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12vh;
+    width: 17vw;
+    color: white;
+    background-color: #b4b4b4;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Permanent Marker", cursive;
+}
+
+section {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.card {
+    background-color: #4e4e4e1f;
+    height: 50vh;
+    width: 20vw;
+    box-shadow: 0 0 10px ;
+    border-radius: 2%;
+    border: solid 2px;
+    transition: 0.5s ease;
+}
+
+.card_header {
+    width: 100%;
+    height: 55%;
+    overflow: hidden;
+    border-bottom: solid 1px;
+}
+
+.card_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.3rem 1.4rem;
+    text-align: center;
+}
+
+.card_header img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.5s ease;
+}
+
+.card:hover img {
+    scale: 1.1;
+}
+
+.card:hover {
+    box-shadow: 0 0 50px;
+    transform: translateY(10px)
+    /* transform: perspective(500px) rotateY(7deg); */
+}
+
+.card:hover .card_header {
+}

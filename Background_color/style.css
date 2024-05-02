@@ -3,6 +3,7 @@ main {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    transition: 0.7s ease;
 }
 #btn {
     padding: 0.5rem;

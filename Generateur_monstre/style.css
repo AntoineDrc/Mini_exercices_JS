@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: "Lugrasimo";
+}
+
+
+h1 {
+    font-family: "Open Sans", sans-serif;
+}
+button {
+    padding: 0.4rem;
+    width: 7rem;
+}
+
+#dragon {
+    background-color: #cc4834;
+}
+
+#troll {
+    background-color: #ffba29;
+}
+
+#elfe {
+    background-color: #238E6B;
+}
+
+.affichage {
+    margin-top: 1rem;
+    width: 25rem;
+    height: 30rem;
+}
+
+.affichage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
